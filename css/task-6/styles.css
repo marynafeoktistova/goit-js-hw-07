@@ -1,0 +1,72 @@
+button[data-create] {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  width: 120px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+button[data-destroy] {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #ff4e4e;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  width: 120px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  width: 150px;
+  height: 40px;
+  font: inherit;
+  outline: transparent;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  padding: 5px 16px;
+
+}
+
+#boxes {
+  background-color: #f6f6fe;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-radius: 8px;
+  min-width: 486px;
+  min-height: 134px;
+}
+
+#controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  min-width: 486px;
+  max-height: 104px;
+  background: #f6f6fe;
+}
